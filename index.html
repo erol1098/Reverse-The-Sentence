@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Reverse Words</title>
+  </head>
+  <body>
+    <section class="main">
+      <div><h1>Reverse Words</h1></div>
+      <div class="main__entry">
+        <label for="word" class="main__entry--label"
+          >Enter a sentence for reversing:</label
+        >
+        <input type="text" id="word" />
+        <p class="main__entry-warning"></p>
+        <button class="btn">Enter</button>
+      </div>
+      <div class="main__input hidden">
+        <p class="main__input--label">The sentence you enter is:</p>
+        <p class="main__input--input" class=""></p>
+      </div>
+      <div class="main__answer hidden">
+        <p class="main__answer--label">Your answer is:</p>
+        <p class="main__answer--reversed"></p>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
